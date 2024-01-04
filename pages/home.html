@@ -1,0 +1,61 @@
+<section>
+  <h1>Explore o Universo</h1>
+
+  <button>
+    <a href="https://app.rocketseat.com.br/dashboard" target="_blank">
+      Quero saber mais 
+    </a>
+  </button>
+</section>
+
+<style> 
+  body {
+    background-image: url(../../assets/universe-1.png);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+  }
+
+  section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+  }
+
+  section h1 {
+    font-size: 3rem;
+    color: #E1E1E6;
+    margin-bottom: 1.5rem;
+  }
+
+  section button {
+    border: none;
+    background-color: transparent;
+
+  }
+  
+  section button a {
+    border: 2px solid white;
+    border-radius: 5px;
+    
+    padding: .5rem .8rem;
+    
+    color: white;
+    font-weight: bold;
+
+    transition: .2s;
+  }
+
+  section button:hover a{
+    background-color: white;
+    color: var(--bt-hover-font);
+  }
+</style>
